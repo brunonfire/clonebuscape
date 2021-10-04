@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Roboto;
+  font-size: 0.75rem;
+
+  color: #212529;
+}
+.navtopo {
+  padding: 0rem 5rem;
+  display: flex;
+  justify-content: space-around;
+  background: #ffc600;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.logo img {
+  display: flex;
+  align-content: flex-start;
+  background-color: red;
+}
+
+.barra-busca {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #333;
+  padding-left: 30px;
+  width: 100%;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+}
+.entrartopo {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.entrartopo img {
+  background-color: red;
+}
+
+.itenstopo {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* sessão navegacao */
+
+.barraextensao {
+  border-style: ridge;
+  border-width: 2px;
+  border-color: #e3e3e3;
+  border-radius: 20px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.barraextensao h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barracashback {
+  background-color: #ffc600;
+}
+.botoes {
+}
+.botao {
+  border-style: ridge;
+  border-width: thin;
+  border-color: #e3e3e3;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+/* imagens */
+
+.imgcategoria {
+  width: 20%;
+}
+
+.iconedesconto {
+  width: 15%;
+}
+.iconebotao {
+  width: 2%;
+}
